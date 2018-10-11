@@ -1,0 +1,23 @@
+{
+  "name": "ten-thousand-dot-code-tests",
+  "version": "1.0.0",
+  "description": "A project generated from aunty's basic app template.",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Nathanael Scott <scott.nathanael@abc.net.au>"
+  ],
+  "aunty": {
+    "type": "basic"
+  },
+  "scripts": {
+    "start": "aunty serve",
+    "test": "aunty test"
+  },
+  "devDependencies": {
+    "@abcnews/aunty": "^9.5.1"
+  },
+  "dependencies": {
+    "d3": "^5.7.0"
+  }
+}
